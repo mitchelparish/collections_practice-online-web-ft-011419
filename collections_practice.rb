@@ -38,7 +38,3 @@ end
 def sum_array(array_of_integers)
   array_of_integers.inject(0){|a, b| a + b}
 end
-
-
-
-
