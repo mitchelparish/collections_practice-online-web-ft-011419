@@ -44,5 +44,3 @@ def add_s(array_of_strings)
     array_of_strings[1] == x ? x : x + "s"
   end
 end
-
-
