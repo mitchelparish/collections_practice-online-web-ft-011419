@@ -32,5 +32,5 @@ def kesha_maker(array_of_strings)
 end
 
 def find_a(array_of_strings)
-  array_of_strings.select{|i| i.start_with?(a)}
+  array_of_strings.select {|i| i.start_with?(a)}
 end
