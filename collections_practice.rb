@@ -30,3 +30,7 @@ def kesha_maker(array_of_strings)
     x[2] = "$"
   end
 end
+
+def find_a(array_of_strings)
+  array_of_strings.select{|i| i.start_with?(a)}
+end
