@@ -34,3 +34,11 @@ end
 def find_a(array_of_strings)
   array_of_strings.select {|i| i.start_with?("a")}
 end
+
+def sum_array(array_of_integers)
+  array_of_integers.inject(0){|a, b| a + b}
+end
+
+
+
+
