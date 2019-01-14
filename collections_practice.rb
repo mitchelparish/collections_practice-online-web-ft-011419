@@ -38,3 +38,11 @@ end
 def sum_array(array_of_integers)
   array_of_integers.inject(0){|a, b| a + b}
 end
+
+def add_s(array_of_strings)
+  array_of_strings.collect do |x|
+    array_of_strings[1] == x ? x : x + "s"
+  end
+end
+
+
