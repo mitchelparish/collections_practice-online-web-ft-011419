@@ -27,6 +27,6 @@ end
 
 def kesha_maker(array_of_strings)
   array_of_strings.each do |x|
-    x[2] = $
+    x[2] = "$"
   end
 end
